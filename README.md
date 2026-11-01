@@ -63,6 +63,6 @@ Track: Frontend Development
 Cohort: FED-01-11-2026
 Week: 1
 
-Project Scope
+**Project Scope**
 
 The projects focus on frontend development and client-side functionality. Backend services and database integration are outside the scope of this week's completed project.
