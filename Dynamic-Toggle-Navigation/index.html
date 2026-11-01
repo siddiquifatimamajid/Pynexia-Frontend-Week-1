@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">NEXORA<span>.</span></a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <p class="eyebrow">WELCOME TO NEXORA</p>
+            <h1>Ideas become<br><span>experiences.</span></h1>
+            <p class="hero-description">
+                Explore a modern digital experience built with creativity,
+                simplicity and thoughtful design.
+            </p>
+            <a href="#about" class="hero-button">Explore More</a>
+        </section>
+
+        <section class="content-section" id="about">
+            <h2>About Us</h2>
+            <p>We create meaningful digital experiences.</p>
+        </section>
+
+        <section class="content-section" id="services">
+            <h2>Our Services</h2>
+            <p>Creative solutions for modern digital needs.</p>
+        </section>
+
+        <section class="content-section" id="portfolio">
+            <h2>Our Portfolio</h2>
+            <p>A collection of ideas brought to life.</p>
+        </section>
+
+        <section class="content-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Let's create something meaningful together.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
